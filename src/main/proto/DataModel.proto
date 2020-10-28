@@ -1,0 +1,12 @@
+
+syntax = "proto2";
+
+package part1.serialization;
+
+option java_package = "part1.serialization";
+
+message OnlineStoreUser {
+  required int32 userId = 1;
+  required string userName = 2;
+  optional string userEmail = 4;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto2";
+
+package part1.serialization;
+
+option java_package = "part1.serialization";
+
+message ProtobufVote {
+  required string ssn = 1;
+  required string candidate = 2;
+}
